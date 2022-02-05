@@ -26,7 +26,7 @@ binarize = true
 sign = true
 purge = true
 baseprefix = 'x\ada\addons'
-modid = 1687651646
+modid = 2743966379
 copy_files = [
     "mod.cpp",
     "meta.cpp",
