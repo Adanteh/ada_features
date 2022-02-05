@@ -1,0 +1,8 @@
+__pycache__
+
+.venv
+release
+key_private
+
+*.pbo
+*.pbo

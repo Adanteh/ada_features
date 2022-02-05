@@ -1,0 +1,3 @@
+class Ui {
+    class colorFromName;
+};

@@ -1,0 +1,3 @@
+class Strings {
+    class replaceInString;
+};

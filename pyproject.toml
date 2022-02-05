@@ -1,0 +1,44 @@
+[tool.poetry]
+name = "ada_suppress"
+version = "0.1.0"
+description = "Suppression mod for Arma 3"
+authors = ["Adanteh <git@adanteh.xyz>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+ansimarkup = "^1.5.0"
+toml = "^0.10.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+[arma.suppress]
+build = true
+name = "@ada_suppress"
+pbo_prefix = "ada_"
+source = 'mod'
+keypath = 'key_private\ada'
+binarize = true
+sign = true
+purge = true
+baseprefix = 'x\ada\addons'
+modid = 1687651646
+copy_files = [
+    "mod.cpp",
+    "meta.cpp",
+    "icon.paa"
+]
+
+[arma.suppress.dev]
+build = true
+pbo_prefix = "ada_"
+source = 'mod'
+binarize = false
+sign = false
+purge = false
+baseprefix = 'x\ada\addons'
+changed_only = true

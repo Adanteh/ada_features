@@ -1,0 +1,12 @@
+name = "AdaFeatures";
+picture = "icon.paa";
+actionName = "Github";
+action = "https://github.com/Adanteh/ada_features";
+description = "Ada Features";
+logo = "icon.paa";
+logoOver = "icon.paa";
+tooltip = "Ada Features. Small collection of random features";
+tooltipOwned = "";
+overview = "";
+author = "adanteh";
+overviewPicture = "icon.paa";

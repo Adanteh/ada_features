@@ -1,0 +1,34 @@
+{
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.pbo": true
+    },
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=120",
+        "--ignore=F841,E305,E303,E302,W291,W293"
+    ],
+    "python.linting.pylintEnabled": false,
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./tests",
+        "-p",
+        "test_*.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.unittestEnabled": true,
+    "python.testing.cwd": "${workspaceFolder}",
+    "python.formatting.provider": "black",
+    "python.autoComplete.extraPaths": [
+        "${workspaceFolder}/mod"
+    ],
+    "python.pythonPath": ".venv\\Scripts\\python.exe",
+    "code-runner.executorMap": {
+        "python": "poetry run $pythonPath $fullFileName"
+    },
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/mod"
+    ]
+}

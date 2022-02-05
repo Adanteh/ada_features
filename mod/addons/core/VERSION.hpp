@@ -1,0 +1,4 @@
+#define VERSION 1.0.0
+#define BRANCHNAME "master"
+
+// -- DONT CHANGE THE LAYER ORDERS IN THIS
