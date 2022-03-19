@@ -1,5 +1,5 @@
 /*
-    Function:       FRL_WindowBreak_fnc_breakWindow
+    Function:       ADA_WindowBreak_fnc_breakWindow
     Author:         N3croo
     Description:    Smashes window you're looking at
 		TODO : still possible to "look" through 2 windows of a building and miss it

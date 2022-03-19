@@ -1,5 +1,5 @@
 /*
-    Function:       FRL_Main_fnc_ppEffectCreate
+    Function:       ADA_Main_fnc_ppEffectCreate
     Author:         Adanteh
     Description:    Creates a ppEffect
 */

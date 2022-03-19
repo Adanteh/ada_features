@@ -1,8 +1,8 @@
 /*
-    Function:       FRL_WindowBreak_fnc_findBuilding
+    Function:       ADA_WindowBreak_fnc_findBuilding
     Author:         N3croo
     Description:    find building the player is inside or is looking at
-    Example:        [player, getpos player] call FRL_WindowBreak_fnc_findBuilding
+    Example:        [player, getpos player] call ADA_WindowBreak_fnc_findBuilding
 */
 #include "macros.hpp"
 

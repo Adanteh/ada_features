@@ -1,5 +1,5 @@
 /*
-    Function:       FRL_WindowBreak_fnc_clientInit
+    Function:       ADA_WindowBreak_fnc_clientInit
     Author:         N3croo
     Description:    Adds keybind for window breaking
 */

@@ -13,9 +13,7 @@ if (cameraView == "GUNNER") then {
         if (GVAR(ticks) > 30) exitWith { };
         GVAR(ticks) = GVAR(ticks) + 1;
     };
-}
-else
-{
+} else {
     GVAR(ticks) = 1;
 };
 
@@ -41,6 +39,7 @@ if (GVAR(ticks) < 30) then {
         };
     };
 
+    // Add many small camShakes to make sure we don't get weird glitchy centering behavior
     addCamShake [_shakePower * 0.1, 5, _freq * 0.1];
 };
 
